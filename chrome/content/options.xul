@@ -30,7 +30,10 @@ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
             <radio id="contentServerLocalhost" label="http://localhost:3000" value="http://localhost:3000"/>
         </radiogroup>
       </groupbox>
-      
+      <groupbox>
+        <caption control="whitelist" label="Allowed Content Hosting Domains" />
+        <textbox id ="whitelist" multiline="true" rows="4" placeholder="Enter a list of domains that you trust to host privly content." />
+        </groupbox>
     </vbox>
     
   </prefpane>
